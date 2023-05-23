@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: white ;
+}
+h1{
+    max-width: 1000px;
+  margin: 0; 
+  text-align: center;
+}
+/*///////////////////////////////////////////////*/
+nav
+{
+    height:  100px;
+    background-color:rgba(100, 139, 21, 0.747);  
+    max-width: 1000px;
+    margin: 0; 
+    overflow-x: hidden; 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction : row;
+    align-items: center;
+}
+#box1 {
+    width: 200px;
+    height: 50px;
+    flex-direction : row;
+    background-color: white;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+}
+#box2 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+}
+#box3 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+}
+#box4 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+}
+#box5 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+}
+/*///////////////////////////////////////////////*/
+header
+{
+    height: 300px;
+    max-width: 1000px;
+    margin: 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(42, 86, 173, 0.836);
+}
+#divs
+{
+   display: flex; 
+   flex-direction: column;
+    margin-right: 12px ;
+}
+#banner
+{
+    width: 800px;
+    height: 280px;
+    background-color: white;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+#logo
+{
+    width: 170px;
+    height: 84px;
+    background-color: white;
+    text-align: center;
+    flex-direction : row;
+    display : right;
+    line-height: 50px;
+    margin: 3px;
+    
+}
+#login
+{
+    width: 170px;
+    height: 90px;
+    background-color: white;
+    text-align: center;
+    flex-direction : row;
+    display: flex right;
+    line-height: 50px;
+    margin: 3px;
+
+}
+#form
+{
+    width: 170px;
+    height: 90px;
+    background-color: white;
+    flex-direction : row;
+    display : right;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+
+}
+/*///////////////////////////////////////////////*/
+main
+{
+    max-width: 1000px;
+    margin: 0; 
+    overflow-x: hidden; 
+    height: 500px;
+    background-color:rgb(214, 156, 114);
+}
+#divMain
+{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+#ladoizquierdo
+{
+    width: 219px;
+    height: 480px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+
+#ladoderecho
+{
+    width: 219px;
+    height: 480px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+
+#Article
+{
+    width: 500px;
+    height: 480px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+
+/*///////////////////////////////////////////////*/
+
+footer
+{
+    max-width: 1000px;
+    margin: 0; 
+    overflow-x: hidden; 
+    height:  50px;
+    background-color:darkorange;
+}
